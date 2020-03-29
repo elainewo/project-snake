@@ -29,6 +29,7 @@ for (let i of document.getElementsByTagName("div")) {
         i.style.background = "orange";
         setTimeout(() => {
             i.style.background = "lightblue"
+            // i.style.background = "" // alternative Schreibweise
         }, 500)
     })
 }
